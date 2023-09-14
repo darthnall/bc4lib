@@ -1,4 +1,4 @@
-from bc4lib import run
+from bc4lib import auth_user
 
 if __name__ == "__main__":
-    run()
+    auth_user()

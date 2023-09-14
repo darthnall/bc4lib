@@ -1,0 +1,5 @@
+# User Auth Flow
+
+- Check if user has $AUTH_TOKEN environment variable.
+    - If not, authenticate user using web_server.
+    - If so, set $AUTH_TOKEN to bc4.set_auth(os.environ["AUTH_TOKEN"])
